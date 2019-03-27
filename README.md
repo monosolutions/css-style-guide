@@ -189,9 +189,9 @@ If you must use an ID selector in the first place (and you should really try not
 <a name="linting"></a>
 ## Linting
 
-We use [stylelint](https://stylelint.io/) for linting the scss files. The configuration file for the linting can be found in [tool-ii]() for example. There's an autofix option that covers most of the things the linting checks for (like missing/too many new lines/spaces).
+We use [stylelint](https://stylelint.io/) for linting the scss files. The configuration file for the linting can be found in [tool-ii](https://github.com/monosolutions/tool-ii/blob/master/.stylelintrc) for example. There's an autofix option that covers most of the things the linting checks for (like missing/too many new lines/spaces).
 
-We also use a stylelint plugin to define the order of the properties within each block ([link](https://github.com/hudochenkov/stylelint-order)). This is there to help the developer with writing better scss - by having an organised way to order the properties it is much faster to understand the layout of the page and fix/add more style to an element. A reference to the order can be found in [tool-ii]() for example.
+We also use a stylelint plugin to define the order of the properties within each block ([link](https://github.com/hudochenkov/stylelint-order)). This is there to help the developer with writing better scss - by having an organised way to order the properties it is much faster to understand the layout of the page and fix/add more style to an element. A reference to the order can be found in [tool-ii](https://github.com/monosolutions/tool-ii/blob/master/.stylelintrc) for example.
 
 ---
 
